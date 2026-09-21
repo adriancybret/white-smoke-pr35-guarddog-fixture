@@ -1,0 +1,4 @@
+# Minimal PyPI pin so GuardDog `pypi verify` has a target.
+# juice-shop tarball smokes skip GuardDog (no lockfile); this fixture does not.
+# six is a tiny, stable wheel — not a malware plant. No site-packages committed.
+six==1.16.0
